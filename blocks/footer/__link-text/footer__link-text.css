@@ -1,0 +1,22 @@
+.footer__link-text {
+    margin-right: 18px;
+    color: white;
+    text-decoration: none;
+    transition: opacity .2s ease-in;
+}
+
+.footer__link-text:hover { 
+    opacity: .8;
+    cursor: pointer;
+}
+
+@media (max-width: 751px) {
+  .footer__link-text {
+      display: block;
+      margin: 0 0 32px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 24px;
+  }
+}

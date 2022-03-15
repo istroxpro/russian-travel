@@ -1,0 +1,13 @@
+.lang-links__text {
+    color: white;
+    text-decoration: none;
+    transition: opacity .2s ease-in;
+}
+
+.lang-links__text:not(:last-child) {
+    margin-right: 18px;
+}
+
+.lang-links__text:hover {
+    opacity: .8;
+}
