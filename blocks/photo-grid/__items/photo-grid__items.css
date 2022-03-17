@@ -8,6 +8,12 @@
     margin: 92px auto 0;
 }
 
+@media (min-width: 1280px) {
+    .photo-grid__items {
+       grid-template-columns: repeat(3, minmax(284px, 1fr));
+    }
+}
+
 @media (min-width: 320px) and (max-width: 425px) {
     .photo-grid__items {
         margin-top: 64px;
